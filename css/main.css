@@ -1,0 +1,57 @@
+/*=======================
+   BASE STYLES
+=======================*/
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.search-box {
+    border:1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 5em;
+    padding: .5em;
+    width: 60%;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.inner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-image {
+    flex: 1;
+    padding: 1em;
+}
+
+.fancybox-caption__body {
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+/*=======================
+   DESKTOP STYLES
+=======================*/
+
+@media (min-width: 1050px) {
+    .wrapper {
+        max-width: 1000px;
+    }
+
+}
